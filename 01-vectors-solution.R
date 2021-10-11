@@ -18,17 +18,17 @@ x[x > 5]    # use to subset the vector
 x[x %% 3 == 0]      # use modular division
 
 # Subsetting a list
-(x <- list(a = c(1, 2, 3), b = "a string", c = pi, d = list(-1, -5)))
+(y <- list(a = c(1, 2, 3), b = "a string", c = pi, d = list(-1, -5)))
 
 ## Subset `a`. The result should be an atomic vector
-x[[1]]      # use the index value
-x$a         # use the element name
-x[["a"]]    # use the element name
+y[[1]]      # use the indey value
+y$a         # use the element name
+y[["a"]]    # use the element name
 
 ## Subset `pi`. The results should be a new list
-x["c"]      # correct method
-x$c         # incorrect method - the result is a scalar, not a list
+y["c"]      # correct method
+y$c         # incorrect method - the result is a scalar, not a list
 
-## Subset the first and third elements from `x`
-x[c(1, 3)]
-x[c("a", "c")]
+## Subset the first and third elements from `y`
+y[c(1, 3)]
+y[c("a", "c")]

@@ -14,7 +14,7 @@
 
 
 # Subsetting a list
-(x <- list(a = c(1, 2, 3), b = "a string", c = pi, d = list(-1, -5)))
+(y <- list(a = c(1, 2, 3), b = "a string", c = pi, d = list(-1, -5)))
 
 ## Subset `a`. The result should be an atomic vector
 
