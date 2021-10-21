@@ -22,5 +22,5 @@
 ## Subset `pi`. The results should be a new list
 
 
-## Subset the first and third elements from `x`
+## Subset the first and third elements from `y`
 
