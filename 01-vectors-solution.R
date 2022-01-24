@@ -21,7 +21,7 @@ x[x %% 3 == 0]      # use modular division
 (y <- list(a = c(1, 2, 3), b = "a string", c = pi, d = list(-1, -5)))
 
 ## Subset `a`. The result should be an atomic vector
-y[[1]]      # use the indey value
+y[[1]]      # use the index value
 y$a         # use the element name
 y[["a"]]    # use the element name
 
